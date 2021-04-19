@@ -57,7 +57,7 @@ function AddTodo(props){
   }
 
   const notify = () => {
-    toast.success('Todo successfully creatrd!', {
+    toast.success('Todo successfully created!', {
       position: 'bottom-center',
       hideProgressBar: true
     })

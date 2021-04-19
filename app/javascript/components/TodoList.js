@@ -123,7 +123,7 @@ function TodoList(){
           }}
         />
         <RemoveAllButton onClick={removeAllTodos}>
-          REmove all
+          Remove all
         </RemoveAllButton>
       </SearchAndButton>
 
