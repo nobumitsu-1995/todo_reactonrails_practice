@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react'
-import axios from 'axios'
-import styled from 'styled-components'
-import { toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
+import styled from 'styled-components';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const InputName = styled.input`
   font-size: 20px;
@@ -52,7 +52,7 @@ const DeleteButton = styled.button`
   cursor: pointer;
 `
 
-toast.configure()
+toast.configure();
 
 function EditTodo(props){
   const initialTodoState = {

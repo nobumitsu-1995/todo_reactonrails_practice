@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
-import axios from 'axios'
-import styled from 'styled-components'
-import { toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-import { FiSend } from 'react-icons/fi'
+import React, {useState} from 'react';
+import axios from 'axios';
+import styled from 'styled-components';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { FiSend } from 'react-icons/fi';
 
 const InputAndButton = styled.div`
   display: flex;
@@ -40,7 +40,7 @@ const Icon = styled.span`
   margin: 0 7px;
 `
 
-toast.configure()
+toast.configure();
 
 function AddTodo(props){
   const initialTodoState = {
