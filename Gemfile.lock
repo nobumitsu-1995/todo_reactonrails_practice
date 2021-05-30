@@ -90,8 +90,11 @@ GEM
     msgpack (1.4.2)
     nio4r (2.5.7)
     nokogiri (1.11.6-arm64-darwin)
+<<<<<<< HEAD
       racc (~> 1.4)
     nokogiri (1.11.6-x86_64-linux)
+=======
+>>>>>>> ad0efaae53c905ad2418a70ffe50de05131c276d
       racc (~> 1.4)
     pg (1.2.3)
     puma (5.2.2)
