@@ -73,8 +73,8 @@ function App(){
           <Route exact path="/todos/new" component={AddTodo} />
           <Route  path="/todos/:id/edit" component={EditTodo} />
         </Switch>
-        <ToastContainer />
       </Wrapper>
+      <ToastContainer />
     </>
   );
 }
