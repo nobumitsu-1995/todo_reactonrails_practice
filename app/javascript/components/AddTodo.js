@@ -60,7 +60,7 @@ function AddTodo(props){
     toast.success('Todo successfully created!', {
       position: 'bottom-center',
       hideProgressBar: true
-    })
+    });
   }
 
   const saveTodo = () => {
@@ -74,8 +74,8 @@ function AddTodo(props){
         name: resp.data.name,
         is_completed: resp.data.is_completed
       })
-      notify()
-      props.history.push('/todos')
+      notify();
+      props.history.push('/todos');
     })
     .catch(e => {
       console.log(e)

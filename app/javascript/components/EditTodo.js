@@ -82,11 +82,11 @@ function EditTodo(props){
 
   useEffect(() => {
     getTodo(props.match.params.id)
-  }, [props.match.params.id])
+  }, [props.match.params.id]);
 
   const handleiInputChange = event => {
     const {name, value} = event.target;
-    setCurrentTodo({...currentTodo, [name]: value})
+    setCurrentTodo({...currentTodo, [name]: value});
   }
 
   const updateIsCompleted = val => {
