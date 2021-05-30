@@ -66,8 +66,8 @@ function EditTodo(props){
   const notify = () => {
     toast.success('Todo successfully updated!', {
       position: 'bottom-center',
-      hideProgressBar: true
-    })
+      hideProgressBar: true,
+    });
   }
 
   const getTodo = id => {
