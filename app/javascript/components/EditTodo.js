@@ -157,7 +157,6 @@ function EditTodo(props){
           Delete
         </DeleteButton>
       </div>
-      <ToastContainer />
     </>
   );
 }

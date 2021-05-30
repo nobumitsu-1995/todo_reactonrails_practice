@@ -101,7 +101,6 @@ function AddTodo(props){
           </Icon>
         </Button>
       </InputAndButton>
-      <ToastContainer />
     </>
   );
 }
