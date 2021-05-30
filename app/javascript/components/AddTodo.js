@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FiSend } from 'react-icons/fi';
 
@@ -101,6 +101,7 @@ function AddTodo(props){
           </Icon>
         </Button>
       </InputAndButton>
+      <ToastContainer />
     </>
   );
 }

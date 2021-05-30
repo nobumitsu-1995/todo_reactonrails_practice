@@ -4,8 +4,6 @@ import styled from 'styled-components';
 import AddTodo from './AddTodo';
 import TodoList from './TodoList';
 import EditTodo from './EditTodo';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
 const Nabvar = styled.nav`
@@ -74,7 +72,6 @@ function App(){
           <Route  path="/todos/:id/edit" component={EditTodo} />
         </Switch>
       </Wrapper>
-      <ToastContainer />
     </>
   );
 }
